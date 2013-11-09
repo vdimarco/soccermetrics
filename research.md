@@ -1,11 +1,9 @@
 Research
 =========
 
-http://www.soccerstats.com/latest.asp?league=brazil
-
 http://www.pi-football.com/2011-12_predictions.aspx
 
-http://www.premiersoccerstats.com/wordpress/?p=925
+http://www.premiersoccerstats.com/wordpress/
 
 Soccer Bayesian Modeling, See page 21 
 -> http://www.eecs.qmul.ac.uk/~norman/papers/pi-football%20%20A%20Bayesian%20network%20model%20for%20forecasting%20Association%20Football%20match%20outcomes.pdf
@@ -22,3 +20,5 @@ Data Sources
  
 Are there exisiting data sets like the "Lahman" R package for baseball stats?
 Where can we scrape data?
+
+http://www.soccerstats.com/latest.asp?league=brazil
