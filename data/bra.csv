@@ -1,0 +1,130 @@
+1,Vasco da Gama,1,Portuguesa,0
+1,Vitoria,2,Internacional,2
+1,Fluminense,2,Atletico PR,1
+1,Corinthians,1,Botafogo RJ,1
+1,Gremio,2,Nautico,0
+1,Ponte Preta,0,Sao Paulo,2
+1,Criciuma,3,Bahia,1
+1,Cruzeiro,5,Goias,0
+1,Coritiba,2,Atletico MG,1
+1,Santos FC,0,Flamengo,0
+2,Atletico PR,2,Cruzeiro,2
+2,Botafogo RJ,2,Santos FC,1
+2,Flamengo,0,Ponte Preta,2
+2,Sao Paulo,5,Vasco da Gama,1
+2,Bahia,0,Coritiba,0
+2,Goias,1,Corinthians,1
+2,Nautico,0,Vitoria,3
+2,Internacional,2,Criciuma,0
+2,Atletico MG,2,Gremio,0
+2,Portuguesa,2,Fluminense,1
+3,Botafogo RJ,2,Cruzeiro,1
+3,Goias,1,Coritiba,1
+3,Atletico PR,2,Flamengo,2
+3,Santos FC,1,Gremio,1
+3,Vitoria,2,Vasco da Gama,0
+3,Fluminense,3,Criciuma,0
+3,Corinthians,1,Ponte Preta,0
+3,Internacional,1,Bahia,2
+3,Nautico,2,Portuguesa,2
+3,Atletico MG,0,Sao Paulo,0
+4,Vasco da Gama,2,Atletico MG,0
+4,Flamengo,0,Nautico,1
+4,Sao Paulo,0,Goias,1
+4,Bahia,2,Botafogo RJ,1
+4,Ponte Preta,3,Atletico PR,4
+4,Criciuma,3,Santos FC,1
+4,Cruzeiro,1,Corinthians,0
+4,Portuguesa,1,Internacional,1
+4,Gremio,1,Vitoria,0
+4,Coritiba,2,Fluminense,1
+5,Vasco da Gama,1,Bahia,1
+5,Corinthians,0,Portuguesa,0
+5,Criciuma,0,Flamengo,3
+5,Cruzeiro,2,Internacional,2
+5,Fluminense,2,Goias,1
+5,Ponte Preta,0,Botafogo RJ,2
+5,Coritiba,1,Nautico,0
+5,Vitoria,3,Atletico PR,2
+5,Santos FC,1,Atletico MG,0
+5,Gremio,1,Sao Paulo,1
+6,Flamengo,2,Coritiba,2
+6,Nautico,1,Ponte Preta,3
+6,Atletico PR,1,Gremio,1
+6,Botafogo RJ,1,Fluminense,0
+6,Sao Paulo,0,Santos FC,2
+6,Bahia,0,Corinthians,2
+6,Internacional,5,Vasco da Gama,3
+6,Atletico MG,3,Criciuma,2
+6,Portuguesa,1,Cruzeiro,1
+6,Goias,1,Vitoria,0
+7,Fluminense,2,Internacional,3
+7,Santos FC,4,Portuguesa,1
+7,Vasco da Gama,0,Flamengo,1
+7,Corinthians,0,Atletico MG,1
+7,Gremio,2,Botafogo RJ,1
+7,Ponte Preta,0,Bahia,0
+7,Criciuma,0,Goias,0
+7,Cruzeiro,3,Nautico,0
+7,Coritiba,1,Atletico PR,0
+7,Vitoria,3,Sao Paulo,2
+8,Botafogo RJ,2,Nautico,0
+8,Sao Paulo,0,Cruzeiro,3
+8,Criciuma,2,Gremio,1
+8,Fluminense,1,Vasco da Gama,3
+8,Vitoria,0,Bahia,0
+8,Internacional,1,Flamengo,0
+8,Goias,2,Portuguesa,1
+8,Atletico PR,1,Corinthians,1
+8,Santos FC,2,Coritiba,2
+8,Atletico MG,4,Ponte Preta,0
+9,Vasco da Gama,3,Criciuma,2
+9,Portuguesa,2,Atletico PR,3
+9,Flamengo,1,Botafogo RJ,1
+9,Corinthians,0,Sao Paulo,0
+9,Bahia,2,Goias,1
+9,Ponte Preta,1,Santos FC,0
+9,Nautico,3,Internacional,0
+9,Cruzeiro,4,Atletico MG,1
+9,Coritiba,1,Vitoria,1
+9,Gremio,2,Fluminense,0
+10,Fluminense,1,Cruzeiro,0
+10,Bahia,3,Flamengo,0
+10,Atletico MG,1,Atletico PR,2
+10,Coritiba,5,Ponte Preta,3
+10,Portuguesa,1,Criciuma,1
+10,Corinthians,2,Gremio,0
+10,Botafogo RJ,2,Vitoria,0
+10,Goias,1,Vasco da Gama,1
+10,Nautico,0,Sao Paulo,1
+10,Internacional,1,Santos FC,2
+11,Sao Paulo,1,Bahia,2
+11,Cruzeiro,1,Coritiba,0
+11,Vasco da Gama,2,Botafogo RJ,3
+11,Flamengo,3,Atletico MG,0
+11,Ponte Preta,1,Fluminense,1
+11,Criciuma,0,Corinthians,2
+11,Atletico PR,2,Goias,0
+11,Vitoria,2,Portuguesa,1
+11,Gremio,1,Internacional,1
+11,Santos FC,1,Nautico,1
+12,Sao Paulo,0,Internacional,1
+12,Flamengo,1,Portuguesa,1
+12,Goias,2,Nautico,1
+12,Criciuma,1,Cruzeiro,2
+12,Atletico MG,2,Botafogo RJ,2
+12,Atletico PR,1,Bahia,0
+12,Santos FC,1,Corinthians,1
+12,Vitoria,1,Fluminense,1
+12,Vasco da Gama,1,Ponte Preta,1
+12,Gremio,0,Coritiba,1
+13,Botafogo RJ,1,Goias,1
+13,Nautico,0,Atletico MG,0
+13,Fluminense,2,Flamengo,3
+13,Internacional,2,Atletico PR,2
+13,Ponte Preta,3,Criciuma,1
+13,Cruzeiro,0,Santos FC,0
+13,Coritiba,0,Vasco da Gama,1
+13,Portuguesa,2,Sao Paulo,1
+13,Corinthians,2,Vitoria,0
+13,Bahia,0,Gremio,3

@@ -1,0 +1,120 @@
+1,Hellas Verona,2,AC Milan,1
+1,Sampdoria,0,Juventus,1
+1,Cagliari,2,Atalanta,1
+1,Inter,2,Genoa,0
+1,Lazio,2,Udinese,1
+1,Livorno,0,Roma,2
+1,SSC Napoli,3,Bologna,0
+1,Parma,0,ChievoVerona,0
+1,Torino,2,Sassuolo,0
+1,Fiorentina,2,Catania,1
+2,ChievoVerona,2,SSC Napoli,4
+2,Juventus,4,Lazio,1
+2,Atalanta,2,Torino,0
+2,Bologna,2,Sampdoria,2
+2,Catania,0,Inter,3
+2,Genoa,2,Fiorentina,5
+2,AC Milan,3,Cagliari,1
+2,Roma,3,Hellas Verona,0
+2,Sassuolo,1,Livorno,4
+2,Udinese,3,Parma,1
+3,Inter,1,Juventus,1
+3,SSC Napoli,2,Atalanta,0
+3,Torino,2,AC Milan,2
+3,Fiorentina,1,Cagliari,1
+3,Hellas Verona,2,Sassuolo,0
+3,Lazio,3,ChievoVerona,0
+3,Livorno,2,Catania,0
+3,Sampdoria,0,Genoa,3
+3,Udinese,1,Bologna,1
+3,Parma,1,Roma,3
+4,Cagliari,2,Sampdoria,2
+4,ChievoVerona,2,Udinese,1
+4,Genoa,0,Livorno,0
+4,Atalanta,0,Fiorentina,2
+4,Bologna,1,Torino,2
+4,Catania,0,Parma,0
+4,Juventus,2,Hellas Verona,1
+4,AC Milan,1,SSC Napoli,2
+4,Roma,2,Lazio,0
+4,Sassuolo,0,Inter,7
+5,Udinese,1,Genoa,0
+5,Bologna,3,AC Milan,3
+5,ChievoVerona,1,Juventus,2
+5,Lazio,3,Catania,1
+5,Livorno,1,Cagliari,1
+5,SSC Napoli,1,Sassuolo,1
+5,Parma,4,Atalanta,3
+5,Sampdoria,0,Roma,2
+5,Torino,2,Hellas Verona,2
+5,Inter,2,Fiorentina,1
+6,Genoa,0,SSC Napoli,2
+6,AC Milan,1,Sampdoria,0
+6,Atalanta,2,Udinese,0
+6,Cagliari,1,Inter,1
+6,Catania,2,ChievoVerona,0
+6,Hellas Verona,2,Livorno,1
+6,Roma,5,Bologna,0
+6,Sassuolo,2,Lazio,2
+6,Torino,0,Juventus,1
+6,Fiorentina,2,Parma,2
+7,ChievoVerona,0,Atalanta,1
+7,Inter,0,Roma,3
+7,Bologna,1,Hellas Verona,4
+7,Catania,1,Genoa,1
+7,Juventus,3,AC Milan,2
+7,Lazio,0,Fiorentina,0
+7,SSC Napoli,4,Livorno,0
+7,Parma,3,Sassuolo,1
+7,Sampdoria,2,Torino,2
+7,Udinese,2,Cagliari,0
+8,Roma,2,SSC Napoli,0
+8,Cagliari,2,Catania,1
+8,AC Milan,1,Udinese,0
+8,Atalanta,2,Lazio,1
+8,Fiorentina,4,Juventus,2
+8,Genoa,2,ChievoVerona,1
+8,Hellas Verona,3,Parma,2
+8,Livorno,1,Sampdoria,2
+8,Sassuolo,2,Bologna,1
+8,Torino,3,Inter,3
+9,Inter,4,Hellas Verona,2
+9,Sampdoria,1,Atalanta,0
+9,Bologna,1,Livorno,0
+9,Catania,0,Sassuolo,0
+9,ChievoVerona,1,Fiorentina,2
+9,Juventus,2,Genoa,0
+9,Lazio,2,Cagliari,0
+9,SSC Napoli,2,Torino,0
+9,Parma,3,AC Milan,2
+9,Udinese,0,Roma,1
+10,Atalanta,1,Inter,1
+10,Cagliari,0,Bologna,3
+10,Fiorentina,1,SSC Napoli,2
+10,Genoa,1,Parma,0
+10,Hellas Verona,2,Sampdoria,0
+10,Juventus,4,Catania,0
+10,Livorno,3,Torino,3
+10,AC Milan,1,Lazio,1
+10,Sassuolo,1,Udinese,2
+10,Roma,1,ChievoVerona,0
+11,AC Milan,0,Fiorentina,2
+11,SSC Napoli,2,Catania,1
+11,Parma,0,Juventus,1
+11,Hellas Verona,2,Cagliari,1
+11,Lazio,0,Genoa,2
+11,Livorno,1,Atalanta,0
+11,Sampdoria,3,Sassuolo,4
+11,Torino,1,Roma,1
+11,Udinese,0,Inter,3
+11,Bologna,0,ChievoVerona,0
+12,Catania,1,Udinese,0
+12,Inter,2,Livorno,0
+12,Atalanta,2,Bologna,1
+12,Cagliari,2,Torino,1
+12,ChievoVerona,0,AC Milan,0
+12,Fiorentina,2,Sampdoria,1
+12,Genoa,2,Hellas Verona,0
+12,Juventus,3,SSC Napoli,0
+12,Parma,1,Lazio,1
+12,Roma,1,Sassuolo,1
