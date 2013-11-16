@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-    <title>Soccermetrics by vdimarco</title>
+    <title>Soccermetrics</title>
   </head>
 
   <body>
@@ -38,6 +38,433 @@ $ git fetch origin
 $ git checkout gh-pages
 </code></pre>
       </section>
+      
+      <div id='chart1' class='rChart dimple'></div>
+<script type="text/javascript">
+  var opts = {
+ "dom": "chart1",
+"width":    800,
+"height":    400,
+"x": "value",
+"y": "Team",
+"groups": "variable",
+"type": "bar",
+"id": "chart1" 
+},
+    data = [
+ {
+ "Team": "Almeria",
+"variable": "W",
+"value": 0.23077 
+},
+{
+ "Team": "Athletic Bilbao",
+"variable": "W",
+"value": 0.53846 
+},
+{
+ "Team": "Atletico Madrid",
+"variable": "W",
+"value": 0.84615 
+},
+{
+ "Team": "Barcelona",
+"variable": "W",
+"value": 0.92308 
+},
+{
+ "Team": "Celta Vigo",
+"variable": "W",
+"value": 0.23077 
+},
+{
+ "Team": "Elche",
+"variable": "W",
+"value": 0.23077 
+},
+{
+ "Team": "Espanyol",
+"variable": "W",
+"value": 0.30769 
+},
+{
+ "Team": "Getafe",
+"variable": "W",
+"value": 0.46154 
+},
+{
+ "Team": "Granada",
+"variable": "W",
+"value": 0.38462 
+},
+{
+ "Team": "Levante",
+"variable": "W",
+"value": 0.30769 
+},
+{
+ "Team": "Malaga",
+"variable": "W",
+"value": 0.23077 
+},
+{
+ "Team": "Osasuna",
+"variable": "W",
+"value": 0.23077 
+},
+{
+ "Team": "Rayo Vallecano",
+"variable": "W",
+"value": 0.30769 
+},
+{
+ "Team": "Real Betis",
+"variable": "W",
+"value": 0.15385 
+},
+{
+ "Team": "Real Madrid",
+"variable": "W",
+"value": 0.76923 
+},
+{
+ "Team": "Real Sociedad",
+"variable": "W",
+"value": 0.30769 
+},
+{
+ "Team": "Sevilla",
+"variable": "W",
+"value": 0.30769 
+},
+{
+ "Team": "Valencia",
+"variable": "W",
+"value": 0.38462 
+},
+{
+ "Team": "Valladolid",
+"variable": "W",
+"value": 0.15385 
+},
+{
+ "Team": "Villarreal",
+"variable": "W",
+"value": 0.53846 
+},
+{
+ "Team": "(all)",
+"variable": "W",
+"value": 0.39231 
+},
+{
+ "Team": "Almeria",
+"variable": "L",
+"value": 0.53846 
+},
+{
+ "Team": "Athletic Bilbao",
+"variable": "L",
+"value": 0.30769 
+},
+{
+ "Team": "Atletico Madrid",
+"variable": "L",
+"value": 0.076923 
+},
+{
+ "Team": "Barcelona",
+"variable": "L",
+"value":      0 
+},
+{
+ "Team": "Celta Vigo",
+"variable": "L",
+"value": 0.53846 
+},
+{
+ "Team": "Elche",
+"variable": "L",
+"value": 0.38462 
+},
+{
+ "Team": "Espanyol",
+"variable": "L",
+"value": 0.46154 
+},
+{
+ "Team": "Getafe",
+"variable": "L",
+"value": 0.38462 
+},
+{
+ "Team": "Granada",
+"variable": "L",
+"value": 0.46154 
+},
+{
+ "Team": "Levante",
+"variable": "L",
+"value": 0.30769 
+},
+{
+ "Team": "Malaga",
+"variable": "L",
+"value": 0.46154 
+},
+{
+ "Team": "Osasuna",
+"variable": "L",
+"value": 0.69231 
+},
+{
+ "Team": "Rayo Vallecano",
+"variable": "L",
+"value": 0.69231 
+},
+{
+ "Team": "Real Betis",
+"variable": "L",
+"value": 0.61538 
+},
+{
+ "Team": "Real Madrid",
+"variable": "L",
+"value": 0.15385 
+},
+{
+ "Team": "Real Sociedad",
+"variable": "L",
+"value": 0.30769 
+},
+{
+ "Team": "Sevilla",
+"variable": "L",
+"value": 0.38462 
+},
+{
+ "Team": "Valencia",
+"variable": "L",
+"value": 0.46154 
+},
+{
+ "Team": "Valladolid",
+"variable": "L",
+"value": 0.38462 
+},
+{
+ "Team": "Villarreal",
+"variable": "L",
+"value": 0.23077 
+},
+{
+ "Team": "(all)",
+"variable": "L",
+"value": 0.39231 
+},
+{
+ "Team": "Almeria",
+"variable": "D",
+"value": 0.23077 
+},
+{
+ "Team": "Athletic Bilbao",
+"variable": "D",
+"value": 0.15385 
+},
+{
+ "Team": "Atletico Madrid",
+"variable": "D",
+"value": 0.076923 
+},
+{
+ "Team": "Barcelona",
+"variable": "D",
+"value": 0.076923 
+},
+{
+ "Team": "Celta Vigo",
+"variable": "D",
+"value": 0.23077 
+},
+{
+ "Team": "Elche",
+"variable": "D",
+"value": 0.38462 
+},
+{
+ "Team": "Espanyol",
+"variable": "D",
+"value": 0.23077 
+},
+{
+ "Team": "Getafe",
+"variable": "D",
+"value": 0.15385 
+},
+{
+ "Team": "Granada",
+"variable": "D",
+"value": 0.15385 
+},
+{
+ "Team": "Levante",
+"variable": "D",
+"value": 0.38462 
+},
+{
+ "Team": "Malaga",
+"variable": "D",
+"value": 0.30769 
+},
+{
+ "Team": "Osasuna",
+"variable": "D",
+"value": 0.076923 
+},
+{
+ "Team": "Rayo Vallecano",
+"variable": "D",
+"value":      0 
+},
+{
+ "Team": "Real Betis",
+"variable": "D",
+"value": 0.23077 
+},
+{
+ "Team": "Real Madrid",
+"variable": "D",
+"value": 0.076923 
+},
+{
+ "Team": "Real Sociedad",
+"variable": "D",
+"value": 0.38462 
+},
+{
+ "Team": "Sevilla",
+"variable": "D",
+"value": 0.30769 
+},
+{
+ "Team": "Valencia",
+"variable": "D",
+"value": 0.15385 
+},
+{
+ "Team": "Valladolid",
+"variable": "D",
+"value": 0.46154 
+},
+{
+ "Team": "Villarreal",
+"variable": "D",
+"value": 0.23077 
+},
+{
+ "Team": "(all)",
+"variable": "D",
+"value": 0.21538 
+} 
+],
+    xAxis = {
+ "type": "addPctAxis",
+"showPercent": false 
+},
+    yAxis = {
+ "type": "addCategoryAxis",
+"showPercent": false,
+"orderRule": "Team" 
+},
+    zAxis = [],
+    legend = {
+ "x":      0,
+"y":      0,
+"width":    500,
+"height":     75,
+"horizontalAlign": "right" 
+};
+  var svg = dimple.newSvg("#" + opts.id, opts.width, opts.height);
+
+  //data = dimple.filterData(data, "Owner", ["Aperture", "Black Mesa"])
+  var myChart = new dimple.chart(svg, data);
+  if (opts.bounds) {
+    myChart.setBounds(x = opts.bounds.x, y = opts.bounds.y, height = opts.bounds.height, width = opts.bounds.width);//myChart.setBounds(80, 30, 480, 330);
+  }
+  //dimple allows use of custom CSS with noFormats
+  if(opts.noFormats) { myChart.noFormats = opts.noFormats; };
+  //for markimekko and addAxis also have third parameter measure
+  //so need to evaluate if measure provided
+  //x axis
+  var x;
+  if(xAxis.measure) {
+    x = myChart[xAxis.type]("x",opts.x,xAxis.measure);
+  } else {
+    x = myChart[xAxis.type]("x", opts.x);
+  };
+  if(!(xAxis.type === "addPctAxis")) x.showPercent = xAxis.showPercent;
+  if (xAxis.orderRule) x.addOrderRule(xAxis.orderRule);
+  if (xAxis.grouporderRule) x.addGroupOrderRule(xAxis.grouporderRule);  
+  if (xAxis.overrideMin) x.overrideMin = xAxis.overrideMin;
+  if (xAxis.overrideMax) x.overrideMax = xAxis.overrideMax;
+  //y axis
+  var y;
+  if(yAxis.measure) {
+    y = myChart[yAxis.type]("y",opts.y,yAxis.measure);
+  } else {
+    y = myChart[yAxis.type]("y", opts.y);
+  };
+  if(!(yAxis.type === "addPctAxis")) y.showPercent = yAxis.showPercent;
+  if (yAxis.orderRule) y.addOrderRule(yAxis.orderRule);
+  if (yAxis.grouporderRule) y.addGroupOrderRule(yAxis.grouporderRule);
+  if (yAxis.overrideMin) y.overrideMin = yAxis.overrideMin;
+  if (yAxis.overrideMax) y.overrideMax = yAxis.overrideMax;
+  //z for bubbles
+    var z;
+  if (!(typeof(zAxis) === 'undefined') && zAxis.type){
+    if(zAxis.measure) {
+      z = myChart[zAxis.type]("z",opts.z,zAxis.measure);
+    } else {
+      z = myChart[zAxis.type]("z", opts.z);
+    };
+    if(!(zAxis.type === "addPctAxis")) z.showPercent = zAxis.showPercent;
+    if (zAxis.orderRule) z.addOrderRule(zAxis.orderRule);
+    if (zAxis.overrideMin) z.overrideMin = zAxis.overrideMin;
+    if (zAxis.overrideMax) z.overrideMax = zAxis.overrideMax;
+  }
+  //here need think I need to evaluate group and if missing do null
+  //as the first argument
+  //if provided need to use groups from opts
+  if(opts.hasOwnProperty("groups")) {
+    var s = myChart.addSeries( opts.groups, dimple.plot[opts.type] );
+    //series offers an aggregate method that we will also need to check if available
+    //options available are avg, count, max, min, sum
+    if (!(typeof(opts.aggregate) === 'undefined')) {
+      s.aggregate = eval(opts.aggregate);
+    }
+    if (!(typeof(opts.lineWeight) === 'undefined')) {
+      s.lineWeight = eval(opts.lineWeight);
+    }
+    if (!(typeof(opts.barGap) === 'undefined')) {
+      s.barGap = eval(opts.barGap);
+    }    
+  } else var s = myChart.addSeries( null, dimple.plot[opts.type] );
+  //unsure if this is best but if legend is provided (not empty) then evaluate
+  if(d3.keys(legend).length > 0) {
+    var l =myChart.addLegend();
+    d3.keys(legend).forEach(function(d){
+      l[d] = legend[d];
+    });
+  }
+  //quick way to get this going but need to make this cleaner
+  if(opts.storyboard) {
+    myChart.setStoryboard(opts.storyboard);
+  };
+  myChart.draw();
+
+</script>
+
     </div>
 
     
