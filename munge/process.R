@@ -1,7 +1,8 @@
 library(plyr)
 library(reshape2)
 
-df <- read.csv(file="data/spa.csv", header=F)
+league <- as.factor("spa")
+df <- read.csv(file=paste0("data/",league,".csv"), header=F)
 names(df) <- c("Round","H","H.pts","A", "A.pts")
 
 # W = 1, D = 0, L = -1 
@@ -67,6 +68,7 @@ P$D <- outcome$D/outcome$Total
 
 P # OVERALL Probability of team X winning/losing/drawing, regardless of location
 
-#### VISUALIZATION TIME!!!! ####
+### EXPORT #### not currently porducing legible files... TODO!
 
-
+# save(df.all,file=paste0("df.all_",league,".csv"))
+# save(outcome,file=paste0("outcome_",league,".csv"))
