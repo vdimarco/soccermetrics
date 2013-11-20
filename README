@@ -1,5 +1,11 @@
-Let the Soccer Metrics data analysis begin! 
+## Let the Soccer Metrics data analysis begin! 
 
-Research & data sets suggested by Ary started in the "research.md" file. Let's add to it. 
+Research & data sets suggested has been started in the "research.md" file. Please add to it as new articles and papers emerge. 
 
-ProjectTemplate package used to create the directory structure, see http://projecttemplate.net for more info.
+Run 'execute.R' to get started. Currently it is only processing data and generating a stack chart.
+
+Raw data is in 'data' folder. 
+Processed data is in  root folder
+Archived data is in 'munge' folder.
+
+ProjectTemplate package was used to create the directory structure, see http://projecttemplate.net for details.

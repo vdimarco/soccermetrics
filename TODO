@@ -1,0 +1,15 @@
+# TODO
+standings bumpchart
+write function that takes league name as parameter to scrape, process and output data to format
+write function that outputs the probability of teamX_home teamY_away
+- update model
+
+
+# DOING
+
+shiney app showing probabilities
+
+
+# DONE
+get onto the web (rchart viz)
+export processed dataframes to csv

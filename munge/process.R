@@ -16,33 +16,33 @@ head(df); tail(df)
 
 # Wrangle into tidy format
 
-df.H <- subset(df,select=Round)
-df.H$Team <- df$H # home team data partition
-df.H$Outcome <- df$H.W + df$H.L
-df.H$Score <- paste0(df$H.pts,"-",df$A.pts)
-df.H$Location <- "home"
-df.H$Opponent <- df$A
+games.H <- subset(df,select=Round)
+games.H$Team <- df$H # home team data partition
+games.H$Outcome <- df$H.W + df$H.L
+games.H$Score <- paste0(df$H.pts,"-",df$A.pts)
+games.H$Location <- "home"
+games.H$Opponent <- df$A
 
-head(df.H) # Tidy Data, Home Teams
+head(games.H) # Tidy Data, Home Teams
 
-df.A <- subset(df,select=Round)
-df.A$Team <- df$A # away team data partition
-df.A$Outcome <- df$A.W + df$A.L
-df.A$Score <- paste0(df$H.pts,"-",df$A.pts)
-df.A$Location <- "away"
-df.A$Opponent <- df$H
+games.A <- subset(df,select=Round)
+games.A$Team <- df$A # away team data partition
+games.A$Outcome <- df$A.W + df$A.L
+games.A$Score <- paste0(df$H.pts,"-",df$A.pts)
+games.A$Location <- "away"
+games.A$Opponent <- df$H
 
-head(df.A) # Tidy Data, Away Teams
+head(games.A) # Tidy Data, Away Teams
 
-outcome.H <- dcast(df.H,Team ~ Outcome, margins=T, fun.aggregate=length, value.var=1)
-outcome.A <- dcast(df.A,Team ~ Outcome, margins=T, fun.aggregate=length, value.var=1)
+outcome.H <- dcast(games.H,Team ~ Outcome, margins=T, fun.aggregate=length, value.var=1)
+outcome.A <- dcast(games.A,Team ~ Outcome, margins=T, fun.aggregate=length, value.var=1)
 names(outcome.H) <- c("Team", "L", "D", "W", "Total")
 names(outcome.A) <- c("Team", "L", "D", "W", "Total")
 
 # OVERALL
 
-df.all <- rbind(df.H,df.A) # Tidy Data, All teams 
-outcome <- dcast(df.all,Team ~ Outcome, margins=T, fun.aggregate=length, value.var=1)
+games.all <- rbind(games.H,games.A) # Tidy Data, All teams 
+outcome <- dcast(games.all,Team ~ Outcome, margins=T, fun.aggregate=length, value.var=1)
 names(outcome) <- c("Team", "L", "D", "W", "Total")
 
 ###### PROBABILITIES #######
@@ -70,5 +70,8 @@ P # OVERALL Probability of team X winning/losing/drawing, regardless of location
 
 ### EXPORT #### not currently porducing legible files... TODO!
 
-# save(df.all,file=paste0("df.all_",league,".csv"))
-# save(outcome,file=paste0("outcome_",league,".csv"))
+write.csv(games.all,file=paste0(league,"_games.csv"))
+write.csv(outcome,file=paste0(league,"_standings.csv"))
+write.csv(P,file=paste0(league,"_probabilities.csv"))
+write.csv(P.A,file=paste0(league,"_probabilities_away.csv"))
+write.csv(P.H,file=paste0(league,"_probabilities_home.csv"))
