@@ -1,5 +1,10 @@
 ## Let the Soccer Metrics data analysis begin! 
 
+To execute project, do the following:
+
+install "ProjectTemplate"
+load.project()
+
 Research & data sets suggested has been started in the "research.md" file. Please add to it as new articles and papers emerge. 
 
 Run 'execute.R' to get started. Currently it is only processing data and generating a stack chart.
