@@ -16,3 +16,5 @@ Processed data is in  root folder
 Archived data is in 'munge' folder.
 
 ProjectTemplate package was used to create the directory structure, see http://projecttemplate.net for details.
+
+[![Analytics](https://ga-beacon.appspot.com/UA-46954513-1/soccermetrics/readme)](https://github.com/igrigorik/ga-beacon)
